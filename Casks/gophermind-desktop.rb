@@ -9,8 +9,8 @@
 # installed without the other: the app embeds its own server rather than
 # shelling out to the CLI binary.
 cask "gophermind-desktop" do
-  version "0.7.1"
-  sha256 "9ac3d0dcf3d835c76f3c1473df9f82f9375db97683b61ce3e0a5e285d8bd80d4"
+  version "0.8.0"
+  sha256 "310904e78146384e81efa6ca803a682c670bb7e617155f1b0eabfd2049469b85"
 
   url "https://github.com/jbrahy/gophermind.com/releases/download/v#{version}/GopherMind-Desktop_#{version}_darwin_universal.zip"
   name "GopherMind Desktop"
